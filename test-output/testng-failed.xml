@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite1]">
+  <test name="Color Explorer Firefox Tests(failed)">
+    <classes>
+      <class name="colorExplorerAutomation.testcases.TitlesTest">
+        <methods>
+          <include name="TestVotingPowerPageTitle"/>
+          <include name="tearDownMethod"/>
+          <include name="tearDown"/>
+          <include name="setupSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- colorExplorerAutomation.testcases.TitlesTest -->
+    </classes>
+  </test> <!-- Color Explorer Firefox Tests(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
